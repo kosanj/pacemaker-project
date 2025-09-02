@@ -1,6 +1,8 @@
 ## Pacemaker Simulation Project
 
-This project involved simulating a **rate-adaptive pacemaker** on the **FRDM-K64F hardware**. The repo includes the MATLAB file with the pacemaker logic that interfaces with the board.
+This team project involved simulating a **rate-adaptive pacemaker** on the **FRDM-K64F hardware**. The repo includes the MATLAB file with the pacemaker logic that interfaces with the board.
+
+This implementation interfaces with the Python DCM that can be accessed at: [Pacemaker-GUI](https://github.com/elmongya/Pacemaker-GUI).
 
 The four core pacing modes **(AOO, VOO, AAI, and VVI)** were enhanced to adjust the cardiac cycle based on **metabolic need**, measured using an **accelerometer**. This produced four new rate-adaptive modes: **AOOR, VOOR, AAIR, and VVIR**.
 
@@ -65,6 +67,7 @@ Expect to see that the amplitude averages around 3.5 V and the pulse width is ve
 <p align="center">
   <em>Figure 5: Rate-adaptive pacing subsystem. Accelerometer data is mapped to an activity level (via coordinate conversion and rolling average) and used to update the pacing rate limit. This enables new rate-adaptive modes (AOOR, VOOR, AAIR, VVIR) by dynamically adjusting the pacing rate based on user activity.</em>
 </p>
+
 
 
 
