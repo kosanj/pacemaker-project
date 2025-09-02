@@ -46,6 +46,31 @@ Continuously paces the atrium at a rate set by the **Lower Rate Limit (LRL)**. T
 Expect to see that the amplitude averages around 3.5 V and the pulse width is very low at 0.4 milliseconds.  </em>
 </p>
 
+**Programmable parameter subsystem**
+<p align="center">
+  <img width="175" height="298" alt="image" src="https://github.com/user-attachments/assets/a0d8cdd1-29f1-41a3-a360-b08e3fcdf46e" />
+</p>
+
+<p align="center">
+  <em>Figure 4: How the inputs to the system are manipulated.</em>
+</p>
+
+**Activity-dependent Pacing**
+<p align="center">
+  <img width="456" height="127" alt="image" src="https://github.com/user-attachments/assets/0a6e821e-78a9-4999-858e-bc5d0546f1ae" />
+  &nbsp;&nbsp;
+  <img width="223" height="211" alt="image" src="https://github.com/user-attachments/assets/baa6bcd5-b531-458c-aea8-ca126b38c194" />
+</p>
+
+<p align="center">
+  <em>Figure 5: Rate-adaptive pacing subsystem. Accelerometer data is mapped to an activity level (via coordinate conversion and rolling average) and used to update the pacing rate limit. This enables new rate-adaptive modes (AOOR, VOOR, AAIR, VVIR) by dynamically adjusting the pacing rate based on user activity.</em>
+</p>
+
+
+
+
+
+
 
 
 
