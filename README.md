@@ -2,7 +2,7 @@
 
 This team project involved simulating a **rate-adaptive pacemaker** on the **FRDM-K64F hardware**. The repo includes the **MATLAB Simulink** file with the pacemaker logic that interfaces with the board.
 
-This implementation interfaces with the Python DCM that can be accessed at: [Pacemaker-GUI](https://github.com/elmongya/Pacemaker-GUI).
+This implementation interfaces with the Python DCM the team developed, that can be accessed at: [Pacemaker-GUI](https://github.com/elmongya/Pacemaker-GUI).
 
 The four core pacing modes **(AOO, VOO, AAI, and VVI)** were enhanced to adjust the cardiac cycle based on **metabolic need**, measured using an **accelerometer**. This produced four new rate-adaptive modes: **AOOR, VOOR, AAIR, and VVIR**.
 
