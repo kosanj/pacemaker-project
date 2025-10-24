@@ -1,6 +1,6 @@
 ## Pacemaker Simulation Project
 
-This team project involved simulating a **rate-adaptive pacemaker** on the **FRDM-K64F hardware**. The repo includes the **MATLAB Simulink** file with the pacemaker logic that interfaces with the board.
+This team project involved simulating a **rate-adaptive pacemaker** on a Kinetis development board. The repo includes the **MATLAB Simulink** file with the pacemaker logic that interfaces with the board.
 
 This implementation interfaces with the Python DCM the team developed, that can be accessed at: [Pacemaker-GUI](https://github.com/elmongya/Pacemaker-GUI).
 
